@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="what is you name ?"/>
+
+    <RadioGroup
+        android:id="@+id/rgOptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rbOptA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="keshav"/>
+
+        <RadioButton
+            android:id="@+id/rbOptB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="lio"/>
+
+        <RadioButton
+            android:id="@+id/rbOptC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="kilo"/>
+
+        <RadioButton
+            android:id="@+id/rbOptD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="hash"/>
+    </RadioGroup>
+
+</LinearLayout>
